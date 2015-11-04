@@ -1,0 +1,73 @@
+Hey Steve,
+
+Here is the history for Foundation 3 Command Line and associated results.
+
+Thanks,
+
+Peter T.
+
+
+Commands:
+
+* PTs-MacBook-Pro:~ PT$ `pwd`
+/Users/PT
+* PTs-MacBook-Pro:~ PT$ `mkdir checkpoint_excercise`
+* PTs-MacBook-Pro:~ PT$ `ls`
+  - AndroidStudio
+  - Projects
+  - Movies
+  - auditions
+  - ContactsMgr.sqlite
+  - Music			
+  - auditions.sqlite3
+  - Desktop			
+  - NetBeansProjects	
+  - checkpoint_excercise
+  - Documents		
+  - Pictures		
+  - contact
+  - Downloads		
+  - Public			
+  - contact.sqlite3 copy
+  - Library			
+  - README.md		
+  - genymotion-log.zip
+* PTs-MacBook-Pro:~ PT$ `cd checkpoint_excercise`
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `pwd`
+/Users/PT/checkpoint_exercise
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `touch bloc_cl_checkpoint.txt`
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `ls`
+bloc_cl_checkpoint.txt
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `open bloc_cl_checkpoint.txt`
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `ls`
+bloc_cl_checkpoint.txt
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `cat bloc_cl_checkpoint.txt`
+“Hello World!”PTs-MacBook-Pro:checkpoint_excercise PT$ 
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `more bloc_cl_checkpoint.txt`
+“Hello World!”
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `mv bloc_cl_checkpoint.txt cl_checkpoint.txt`
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `ls`
+cl_checkpoint.txt
+* PTs-MacBook-Pro:checkpoint_excercise PT$ `more cl_checkpoint.txt`
+“Hello World!”
+* PTs-MacBook-Pro:checkpoint_excercise PT$ 
+
+
+History:
+
+
+* 543  pwd
+* 544  mkdir checkpoint_excercise
+* 545  ls
+* 546  cd checkpoint_excercise
+* 547  pwd
+* 548  touch bloc_cl_checkpoint.txt
+* 549  ls
+* 550  open bloc_cl_checkpoint.txt
+* 551  ls
+* 552  cat bloc_cl_checkpoint.txt
+* 553  more bloc_cl_checkpoint.txt
+* 554  mv bloc_cl_checkpoint.txt cl_checkpoint.txt
+* 555  ls
+* 556  more cl_checkpoint.txt
+* 557  history
