@@ -1,0 +1,25 @@
+**Foundation 6 - Objective C Syntax**
+
+**6.1 - Describe what a string is.**
+
+A string is a programming data type for storing text. In Objective C a string is preceded by the @ symbol and then the string content itself is enclosed in quotes such as  ` @“Hello Bloc!” `.  A string can be displayed to the Xcode log using the NSLog command such as  ` NSLog(@“Hello Bloc!”); `. This line ended with a semicolon because Objective C statements end with the semicolon; telling the complier that the statement has ended.
+
+**6.2 - Pick one of your favorite apps and describe a few places where it uses strings. Be specific.**
+
+One of our favorite family applications is **ODoggy** which is used to monitor your pet at subscribed kennels. Since our dog can’t come with us on a lot of our vacations we use this application to see how she’s doing in her pet resort while we’re gone.
+
+You subscribe to the application for a period of time, select your kenneling provider, and view your dog by means of the camera system at that kennel. This application would use strings to display the text on the primary screen for your selections of viewing your dog, searching for providers, subscribing, etc. They would also be using strings to present the name and address of the providers, the patent right information at the bottom of each page, the titles, and just about anything else that presents text to the screen. 
+
+**6.3- Describe what a method is.**
+
+A method is a block of code that performs some operation or function that typically might be repetitive in nature. This allows us to call that method of code in order to do something over and over, but only have to write that piece of code the one time rather than write it for every time we need to use it. A method is “Defined” when you write the code and then “Called” when you solicit that piece of code (method) to be used. A method can return something back to the caller or return nothing at all.
+
+**6.4 - Using the same app, try to guess a few methods the app must implement. Describe what these methods do.**
+
+For this ODoggy application I would think they are using methods to display the provider information because it is very repetitive and presents the same information for each provider. Whether they use an internal database or an outside entity for obtaining this list of information they would still need to be collecting it, formatting it, and presenting it the same way each time. They would probably be using several or many methods just for this one function. Once the provider is selected by the user I would think they are using another set of methods to connect to  that provider and retrieve the information needed to present the camera options to the user. 
+
+There would be different methods to present the camera images to the screen properly and then other methods to perform some of the options on the camera screen such as auto-refresh, the home button, or switch cameras.  I would also think that the simple “back” button on each screen would be a separate method and any other type of navigation throughout the application would also have it’s own separate method(s). 
+
+Thanks,
+
+Peter T.
